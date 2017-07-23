@@ -196,6 +196,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductContentController.cs" />
     <Compile Include="Controllers\RegisterCodeController.cs" />
+    <Compile Include="Controllers\ResumeController.cs" />
     <Compile Include="Entities\ItemType.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\SubscriptionProduct.cs" />
@@ -245,10 +246,16 @@
     <Content Include="Content\Images\csharp-zip.png" />
     <Content Include="Content\Images\laptop.jpg" />
     <Content Include="Content\Images\pdf.png" />
+    <Content Include="Content\Images\picturesKanae\IMGP3620.JPG" />
+    <Content Include="Content\Images\picturesKanae\IMGP3621.JPG" />
+    <Content Include="Content\Images\picturesKanae\IMGP3622.JPG" />
     <Content Include="Content\Images\unit-testing.png" />
     <Content Include="Content\Images\video.png" />
     <Content Include="Content\login.css" />
     <Content Include="Content\Logos\kanaeHi.jpg" />
+    <Content Include="Content\Logos\kanaeHi2.png" />
+    <Content Include="Content\Logos\kanaeHi3.png" />
+    <Content Include="Content\Logos\kanaeHi4.png" />
     <Content Include="Content\Logos\kane4Computer.gif" />
     <Content Include="Content\Logos\membership-icon-30x152.png" />
     <Content Include="Content\Logos\membership-icon-45x184.png" />
@@ -391,6 +398,11 @@
     <Content Include="Views\Shared\_RegisterUserPartial.cshtml" />
     <Content Include="Views\Shared\_LoginPanelPartial.cshtml" />
     <Content Include="Views\Shared\_ForgotPasswordPanelPartial.cshtml" />
+    <Content Include="Views\Resume\Education.cshtml" />
+    <Content Include="Views\Resume\Experience.cshtml" />
+    <Content Include="Views\Resume\Porfolio.cshtml" />
+    <Content Include="Views\Resume\Skills.cshtml" />
+    <Content Include="Views\Resume\Character.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

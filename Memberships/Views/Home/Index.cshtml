@@ -1,43 +1,13 @@
-﻿@model IEnumerable<Memberships.Models.ThumbnailAreaModel>
-@using Memberships.Models
+﻿
+
 
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Kanae, Autocad Designer specializing in piping";
 }
+<h2>@ViewBag.Title.</h2>
 
-<div class="row">
-    @if (User.Identity.IsAuthenticated)
-    {
-        foreach (var area in Model)
-        {
-            @Html.Partial("_ThumbnailAreaPartial", area)
-        }
-    }
-    else
-    {
-        //Left column
 
-        <div class="col-lg-9 col-md-8 col-sm-7">
-            <h2>I'm not Logged in</h2>
-        </div>
+<h2>   <img src="~/Content/Logos/kanaeHi3.png" />
+                </h2>
 
-        <div class="col-lg-9 col-md-11 col-sm-7">
-            <h2> 
-                <img src="~/Content/Logos/kane4Computer.gif" /></h2>
-
-        </div>
-        //Right column
-        <div class="col-lg-3 col-md-4 col-sm-5">
-            @Html.Partial("_RegisterUserPartial", new RegisterUserModel { Email = "", Name = "", Password = "" })
-            @Html.Partial("_ForgotPasswordPanelPartial", new ForgotPasswordViewModel { Email = "" })
-        </div>
-    }
-</div>
-<div class="row">
-    <div class="col-sm-3 regiger-code-area">
-        @Html.Partial("_RegisterCodePartial")
-    </div>
-    <div class="col-sm-9">
-
-    </div>
-</div>
+        

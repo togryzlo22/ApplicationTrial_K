@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Kanae Autocad Specialist</title>
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/membership")
     @Scripts.Render("~/bundles/modernizr")
@@ -27,11 +27,19 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Education", "Education", "Resume")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    @Html.Partial("_AdminMenuPartial")
+                    <li>@Html.ActionLink("Experience", "Experience", "Resume")</li>
+                    <li>@Html.ActionLink("Porfolio", "Portfolio", "Resume")</li>
+                    <li>@Html.ActionLink("Skills", "Skills", "Resume")</li>
+                    <li>@Html.ActionLink("Character", "Character", "Resume")</li>
+                  
+
+
+
+                   
                 </ul>
-                @Html.Partial("_LoginPartial")
+              
             </div>
         </div>
     </div>
@@ -39,7 +47,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Kanae Autocad Specialist</p>
         </footer>
     </div>
 
